@@ -1,0 +1,172 @@
+header h1 {
+    float: left;
+    font-family: 'Crete Round';
+    color: #464b4b;
+}
+
+.orange{
+    color: rgb(255, 115, 0);
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
+h2 {
+    clear: both;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #464b4b;
+}
+
+strong {
+    font-weight: 900;
+}
+
+#main-image {
+    background: url("images/main1.jpg") center/cover fixed;
+    clear: both;
+    height: 600px;
+    text-align: center;
+}
+
+.button-1 {
+    border-radius: 10px 10px 10px 10px;
+    border : 1px rgb(255, 115, 0) solid;
+    background-color: rgb(255, 115, 0);
+    padding: 10px 25px 10px 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#step-1 {
+    background-image: url("images/steps-icon-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#step-2 {
+    background-image: url("images/steps-icon-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#step-3 {
+    background-image: url("images/steps-icon-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#steps ul{
+    display: inline-block;
+    text-align: center;
+    color: #464b4b;
+}
+
+#steps li{
+    width: 30%;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+#steps p {
+    display: block;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    text-align: center;
+
+}
+
+
+h4 {
+    display: block;
+    padding-top: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#contact {
+    margin: 15% 25% 10% 25%;
+    text-align: center;
+    color: #464b4b;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-bottom: 0.3px #42f5ec solid;
+    display: inline-block;
+    width: 50%;
+} 
+
+#contact p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+form {
+    display: block;
+    margin-top: 50px;
+}
+
+form label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+input {
+    border-bottom: 0.3px red solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.button-3 {
+    color: white;
+    background-color: #42f5ec;
+    border: #42f5ec;
+    height: 35px;
+    width: 35px;
+}
+
+footer {
+    background-color: #464b4b ;
+    text-align: center;
+}
+
+footer h1 {
+    font-family: 'Crete Round';
+    color: white;
+    display: block;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+.copyright {
+    color: #6e7474;
+    font-family: 'crete round';
+    display: block;
+    padding-bottom: 50px;
+    font-size: 0.7em ;
+}   
